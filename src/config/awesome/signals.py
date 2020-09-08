@@ -1,3 +1,3 @@
 # signals for awesomewm
 
-GEOINFO_UPDATED = "geoinfo::updated"
+GEOINFO_UPDATED = "fly::geoinfo::update"
