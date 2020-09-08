@@ -1,0 +1,22 @@
+# service name,object path,interface name and so on
+SERVICES_GEOCLUE2 = "org.freedesktop.GeoClue2"
+
+OBJECT_PATHS_GEOCLUE2_MANAGER = "/org/freedesktop/GeoClue2/Manager"
+
+INTERFACES_GEOCLUE2_MANAGER = "org.freedesktop.GeoClue2.Manager"
+INTERFACES_GEOCLUE2_CLIENT = "org.freedesktop.GeoClue2.Client"
+INTERFACES_GEOCLUE2_LOCATION = "org.freedesktop.GeoClue2.Location"
+INTERFACES_DBUS_PROPERTIES = "org.freedesktop.DBus.Properties"
+
+MEMBER_GEOCLUE2_GETCLIENT = "GetClient"
+MEMBER_DBUS_SET_PROPERTY = "Set"
+MEMBER_GEOCLUE2_START = "Start"
+MEMBER_DBUS_GET_ALL_PROPERTIES = "GetAll"
+
+GEOCLUE2_DESKTOP_ID = "FLYAWESOME"
+
+PROPERTY_NAME_GEOCLUE2_DESKTOP_ID = "DesktopId"
+PROPERTY_NAME_GEOCLUE2_LOCATION_LATITUDE = "Latitude"
+PROPERTY_NAME_GEOCLUE2_LOCATION_LONGITUDE = "Longitude"
+
+SIGNAL_GEOCLUE2_UPDATE_LOCATION = "LocationUpdated"
